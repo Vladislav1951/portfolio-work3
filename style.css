@@ -1,0 +1,1161 @@
+@font-face {
+    font-family: 'Archangelsk';
+    src: url('fonts/ofont.ru_Archangelsk.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.uggaws2{
+    display: none;
+}
+
+.on{
+    display: none;
+}
+
+header{
+    background-image: url(content/11.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    min-width: 1024px;
+    min-width: unset;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.logo{
+    background-image: url(content/Cyberpunk_2077_logo\ 1.png);
+    width: 296px;
+    height: 74px;
+}
+
+.soc{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.soc img{
+    width: 30px;
+    height: 30px;
+}
+
+.blox{
+    background-image: url(content/Rectangle\ 59.png);
+    background-repeat: no-repeat;
+    width: 624px;
+    height: 369px;
+    padding-top: 70px;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.blox h2{
+    color: rgb(0, 0, 0);
+    font-family: "Archangelsk", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.infonc{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.blox input{
+    padding: 19px 50px 19px 50px;
+    color: rgb(248, 242, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border: none;
+}
+
+.bloxpos{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 557px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.boutnc{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.txt-nc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 70px;
+}
+
+.txt-nc h2{
+    color: rgb(0, 0, 0);
+    font-family: "Archangelsk", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txt-nc p{
+    font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.pspan{
+    color: rgb(82, 190, 220);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 460px;
+    max-height: 424px;
+}
+
+.colf{
+    max-width: 100%;
+    max-height: 45%;
+}
+
+.cols{
+    max-width: 100%;
+    max-height: 45%;
+}
+
+.colt{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.coll{
+    max-width: 788px;
+    max-height: 424px;
+}
+
+.poloska{
+    position: relative;
+    top: 11px;
+    width: 100%;
+}
+
+.fzgaw{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+
+.fzgaw h2{
+    color: rgb(255, 255, 255);
+    font-family: "Archangelsk", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    top: 55px;
+}
+
+.pgaw{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+.GAW{
+    background: rgb(0, 0, 0);
+    padding-bottom: 70px;
+    position: relative;
+    top: 6px;
+}
+
+.inf{
+    height: 35px;
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    max-width: 460px;
+}
+
+.ins{
+    height: 35px;
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    max-width: 460px;
+}
+
+.sk{
+    border: 1px dashed rgb(119, 119, 119);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+}
+
+.sk p{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 39px;
+    padding-left: 137px;
+    padding-right: 137px;
+    white-space: nowrap;
+}
+
+.sk span{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 39px;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    background: rgb(248, 242, 0);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    max-width: 192px;
+}
+
+.ugawf{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-left: 35px;
+}
+
+.check span{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ugaw{
+    display: flex;
+    flex-direction: row;
+}
+
+.ugaws{
+    position: relative;
+    bottom: 48px;
+    max-width: 788px;
+    max-height: 456px;
+    padding-right: 35px;
+}
+
+.ugaws img{
+    max-width: 100%;
+    display: block;
+}
+
+.uggaws{
+    display: none;
+}
+
+/*.ugaws :first-child{
+    z-index: 1;
+}
+
+.ugaws :last-child{
+    position: relative;
+    right: 14%;
+    z-index: 0;
+}*/
+
+.poloska2{
+    position: relative;
+    bottom: -5px;
+    max-width: 100%;
+}
+
+.fulint{
+    background: rgb(248, 242, 0);
+    position: relative;
+    bottom: 0px;
+}
+
+.cont-fulint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 34px;
+}
+
+.fulintf{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    max-width: 624px;
+    min-width: 460px;
+    box-sizing: border-box;
+    max-height: 536px;
+    padding-left: 35px;
+}
+
+.rip{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    max-width: 540px;
+}
+
+.ripf{
+    max-width: 80px;
+}
+
+.ripf img{
+    max-width: 100%;
+}
+
+.rips{
+    max-width: 90px;
+}
+
+.rips img{
+    max-width: 100%;
+}
+
+.ript{
+    max-width: 320px;
+}
+
+.ript img{
+    max-width: 100%;
+}
+
+.fulintf img{
+    max-width: 100%;
+}
+
+.rip img{
+    max-width: 100%;
+}
+
+.fulints{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 653px;
+    padding-right: 32px;
+}
+
+.fulints h2{
+    color: rgb(0, 0, 0);
+    font-family: "Archangelsk", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.fulints p{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txtt span{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txtt {
+    display: flex;
+    align-items: center;
+    gap: 11.86px;
+}
+
+.fulints input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    background: rgb(0, 0, 0);
+    color: rgb(248, 242, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 203.02px;
+    border: none;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+}
+
+.footerf{
+    display: flex;
+    flex-direction: row;
+}
+
+ .footsec div {
+    width: 50%;
+}
+
+.footerfimg{
+    background-image: url(content/Untitled-1\ 1.png);
+    background-size: cover;
+    background-position: right;
+    width: 50%;
+}
+
+.footerf h2{
+    color: rgb(255, 255, 255);
+    font-family: "Archangelsk", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footerf h4{
+    color: rgb(82, 190, 220);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txxt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.footth h4{
+    color: rgb(82, 190, 220);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.footth{
+    display: flex;
+    flex-direction: column;
+    gap: 26.35px;
+    padding-top: 70px;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.f2{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.footimages{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footsec{
+    position: relative;
+    z-index: 12412;
+    padding-top: 70px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 77.81px;
+    background-color: black;
+}
+
+.preend{
+    background: rgb(255, 255, 255);
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.preendcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.preconts span{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.preconts{
+    display: flex;
+    gap: 32px;
+}
+
+.precontf{
+    display: flex;
+    gap: 32px;
+}
+
+.end span{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.end{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.precontff{
+    max-width: 296px;
+}
+
+.precontff img{
+    max-width: 100%;
+}
+
+.precontfs{
+    max-width: 172.02px;
+}
+
+.precontfs img{
+    max-width: 100%;
+}
+
+@media (max-width: 1024px){
+
+    .txt-nc p{
+        font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+    .txt-nc h2{
+        max-width: 640px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .col{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        max-width: 1000px;
+        max-height: 424px;
+    }
+
+    .coll{
+        max-width: 952px;
+        max-height: 424px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .colt{
+        width: 100%;
+    }
+
+    .colf{
+        max-width: 48%;
+        max-height: 45%;
+    }
+    
+    .cols{
+        max-width: 48%;
+        max-height: 45%;
+    }
+
+    .fzgaw{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+    }
+
+    .fzgaw h2{
+        color: rgb(255, 255, 255);
+        font-family: "Archangelsk", sans-serif;
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 63px;
+        letter-spacing: 0%;
+        text-align: left;
+        position: relative;
+        top: 0;
+        padding-right: 70%;
+    }
+
+    .ugaws img{
+        max-width: 100%;
+        display: none;
+    }
+    
+    .uggaws{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 463px;
+    }
+
+    .uggaws img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .uggaws :first-child{
+        z-index: 1;
+    }
+    
+    .uggaws :last-child{
+        position: relative;
+        bottom: 50px;
+        z-index: 0;
+    }
+
+    .zgaw{
+        box-sizing: border-box;
+    }
+
+    .pgaw{
+        padding-right: 53.2%;
+    }
+
+    .fulintf{
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        min-width: 296px;
+        max-width: 460px;
+        box-sizing: border-box;
+        max-height: 536px;
+        padding-left: 35px;
+    }
+
+    .rip{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        max-width: 540px;
+    }
+
+    .fulints{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        max-width: 434px;
+        padding-right: 32px;
+    }
+
+    .footerfimg{
+        background-image: url(content/Untitled-1\ 1.png);
+        background-size: cover;
+        background-position: right;
+        width: 35%;
+    }
+
+    .footsec div {
+       width: 95%;
+   }
+}
+
+@media (max-width: 745px){
+    .header{
+        flex-direction: column;
+    }
+
+    .bloxpos{
+        top: 527px;
+        max-width: 320px;
+        height: auto;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .rip{
+        flex-direction: row;
+    }
+
+    .cont-fulint{
+        flex-direction: column;
+    }
+
+    .fulintf{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .fulints{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 653px;
+        padding-right: 0;
+    }
+
+    .preendcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .inf{
+        max-width: 296px;
+    }
+
+    .ins{
+        max-width: 296px;
+    }
+
+    .sk{
+        max-width: 296px;
+    }
+
+    .footerf{
+        flex-direction: column;
+    }
+
+    .fzgaw h2{
+        color: rgb(255, 255, 255);
+        font-family: "Archangelsk", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .pgaw{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-right: 0;
+        max-width: 296px;
+    }
+
+    .uggaws{
+        display: none;
+    }
+
+    .uggaws2{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .uggaws2 img{
+        max-width: 46%;
+    }
+
+    .precontf{
+        flex-direction: column;
+    }
+
+    .preconts{
+        flex-direction: column;
+    }
+
+    .soc{
+        gap: 28px;
+    }
+
+    .blox{
+        background-image: url(content/Rectangle\ 599.png);
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-left: 37px;
+        padding-right: 38px;
+        background-size: cover;
+        width: auto;
+        height: auto;
+    }
+
+    .blox h2{
+        color: rgb(0, 0, 0);
+        font-family: "Archangelsk", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .bloxpos{
+        margin: 0 auto;
+        top: 720px;
+    }
+
+    .blox input{
+        padding: 9px 50px 9px 50px;
+        color: rgb(248, 242, 0);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .footsec div{
+        width: 291px;
+    }
+
+    .txxt{
+       white-space: normal;
+    }
+
+    .txt-nc p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .txt-nc h2{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fulints h2{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .fulints p{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .footerf h2{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .footerf h4{
+        color: rgb(82, 190, 220);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .col img{
+        width: 100%;
+        max-height: 196px;
+        object-fit: cover
+    }
+
+    .col{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .coll{
+        max-width: 320px;
+        height: 424px;
+        margin: 0 auto;
+    }
+
+    .off{
+        display: none;
+    }
+
+    .on{
+        display: block;
+    }
+
+    .coltt{
+        background-image: url(content/Rectangle\ 611.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .colt{
+        display: none;
+    }
+
+    .footsec{
+        padding-left: 12px;
+    }
+
+    .cont-fulint{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fzgaw{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .pgaw{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .ugawf{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .infonc{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .preconts span{
+        text-align: center;
+        width: 100%;
+    }
+
+    .preconts{
+        background: rgb(230, 230, 230);
+        width: 100%;
+    }
+
+    .precontf{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .preendcont{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 745px;
+    }
+
+}
+
+@media (max-width: 414px){
+    .sk{
+        max-width: 186px;
+    }
+
+    .logo{
+        background-image: url(content/Cyberpunk_2077_logo\ 11.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 50px;
+    }
+
+    .col{
+        max-width: 414px;
+    }
+
+    .fulintf{
+        max-width: 296px;
+        min-width: 0;
+    }
+
+    .footsec div{
+        width: 264px;
+    }
+
+    .footimages{
+        gap: 31px;
+    }
+
+    .soc img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 334px){
+    body{
+        width: 337px;
+    }
+}
